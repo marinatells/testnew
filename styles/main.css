@@ -1,0 +1,113 @@
+
+.system article {
+    text-align: center;
+}
+.system div {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.system img {
+    height: 200px;
+    position: absolute;
+    left: -90px;
+}
+.system p {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    opacity: 0;
+    transition: 0.2s;
+}
+.system {
+    width: 1200px;
+    margin: auto;
+}
+.galaxy article {
+    text-align: center;
+}
+.galaxy img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.galaxy p {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+}
+.galaxy div {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.galaxy {
+    width: 1200px;
+    margin: auto;
+}
+.people article {
+    text-align: center;
+}
+.people img{
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.people p {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+}
+.people div {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.people {
+    width: 1200px;
+    margin: auto;
+}
+.people2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.galaxy2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.system2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.system p:hover {
+    opacity: 1;
+}
+.people img:hover{
+    background: rgba(0,0,0,0.7);
+}
+main {
+    background-color: silver;
+}

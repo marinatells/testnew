@@ -1,0 +1,31 @@
+footer {
+    color: #eee;
+    background-color: #333;
+    background-image: url(../pics/parallax.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+
+    padding: 50px;
+    text-align: center;
+}
+footer img {
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.facebook:hover {
+    background-color: #2b5297;
+    transition: 1s;
+}
+.youtube:hover {
+    background-color: #c30000;
+    transition: 1s;
+}
+.telegram:hover {
+    background-color: #26a614;
+    transition: 1s;
+}
